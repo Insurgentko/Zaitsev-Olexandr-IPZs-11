@@ -158,11 +158,6 @@ body {
 .icon_header{
     margin-right: 10px;
 }
-
-/* main */
-
-/* buttons */
-
 button,
 button:active,
 button:focus  {
@@ -262,6 +257,7 @@ button:focus  {
 .flex_ul_info{
     display: flex;
     gap: 30px;
+    max-width: 270px;
 }
 
 .info_tite{
@@ -298,7 +294,6 @@ button:focus  {
     letter-spacing: 1.08px;
     margin-bottom: 50px;
 }
-
 .text_work_list{
     display: flex;
     position: absolute;
@@ -317,7 +312,6 @@ button:focus  {
     width: 100%;
     background: rgba(47, 48, 58, 0.80);
 }
-
 .team{
     background: #F5F4FA;
     padding-top: 94px;
@@ -394,7 +388,6 @@ button:focus  {
     margin: 0 auto;
     gap: 10px;
 }
-
 .ul_customers{
     display: flex;
     justify-content: center;
@@ -560,6 +553,43 @@ button:focus  {
 
 .connection {
     margin-left: 93px;
+}
+
+.footer_p_right{
+    color: #FFF;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer_svg{
+    display: flex;
+    gap: 10px;
+}
+
+.a_adress_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--white);
+    background-color: rgba(255, 255, 255, 0.10);;
+    transition: 300ms;
+}
+
+.a_adress_footer:hover,
+.a_adress_footer:focus{
+    transition: 300ms;
+    background-color: var(--brand-color);
+    color: var(--white);
+    outline: none;
+}
+
+.connection{
+    margin-left: 70px;
 }
 
 .footer_p_right{
@@ -944,4 +974,3 @@ input[type="checkbox"] {
     padding: 10px 52px;
     text-align: center;
 }
-
